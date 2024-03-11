@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Unit Test') {
             steps {
-                bat 'unit.bat'
+                bat 'test.bat'
             }
         }
               stage('Quality') {
