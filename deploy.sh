@@ -1,1 +1,1 @@
-echo "Deploying stage at $(date)"
+echo "Deploying stage on $(date)"
