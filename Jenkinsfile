@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'build.bat'
+                sh 'build.sh'
             }
         }
         stage('Unit Test') {
             steps {
-                bat 'test.bat'
+                sh 'test.sh'
             }
         }
               stage('Quality') {
             steps {
-                bat 'quality.bat'
+                sh 'quality.sh'
             }
         }
         stage('Deploy') {
             steps {
-                bat 'deploy.bat'
+                sh 'deploy.sh'
             }
         }
     }
