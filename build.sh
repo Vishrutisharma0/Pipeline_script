@@ -1,1 +1,1 @@
-echo "Deploying Build on $(date)"
+print "Deploying Build on $(date)"
