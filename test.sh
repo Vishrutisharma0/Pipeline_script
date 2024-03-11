@@ -1,1 +1,1 @@
-echo "Tesing : %date% : %time%"
+echo "Testing on $(date)"
