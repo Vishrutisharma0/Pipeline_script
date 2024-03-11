@@ -1,1 +1,1 @@
-echo "Quality check : %date% : %time%"
+echo "Quality check on $(date)"
