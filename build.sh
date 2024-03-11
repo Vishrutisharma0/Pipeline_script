@@ -1,1 +1,1 @@
-echo "Deploying Build : ("%H:%M:%S")"
+echo "Deploying Build at $("%H:%M:%S")"
