@@ -1,1 +1,1 @@
-echo "Deploying Build at $("%H:%M:%S")"
+echo "Deploying Build at $(date)"
